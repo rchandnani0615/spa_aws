@@ -20,8 +20,7 @@ class App extends Component {
 
     async componentDidMount() {
         const response = await fetch(
-      //    "https://bpvm2g9ut4.execute-api.us-east-1.amazonaws.com/DEV/", 
-         "https://xex1eec4md.execute-api.us-east-1.amazonaws.com/development/employees/",
+          "https://bpvm2g9ut4.execute-api.us-east-1.amazonaws.com/DEV/", 
 	  {
            headers: new Headers({'Authorization': 'allow'})    
         }    
