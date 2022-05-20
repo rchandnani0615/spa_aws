@@ -59,7 +59,7 @@ class App extends Component {
 
                 <div className="row">
                         <div className="col-12">
-                            <h4>Employee List - New-2</h4>
+                            <h4>Employee List</h4>
                         </div>
                 </div>
 
